@@ -1,0 +1,299 @@
+/* background-color: #efe9e5; */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efe9e5;
+    color: #383838;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+h1 {
+    font-size: calc(4rem + 3.3vw);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: calc(2rem + 3.3vw);
+    margin: 1rem;
+    padding: 0;
+    width: auto;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #235b8f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bordes {
+    margin: auto;
+    width: 50vh;
+    padding: 0;
+    border-color: #d2a353;
+    border-style: ridge;
+
+}
+
+.masthead {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: #383838;
+    font-style: italic;
+    background-image: url('./assets/fondos/fondoMast.jpg');
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+.nuestra-historia {
+    display: block;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: #383838;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nuestra-historia p {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+
+.fiesta {
+    margin-top: 5px;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+.fiesta-item {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.nuestra-historia h2 {
+    margin-top: 1rem;
+}
+
+.nuestra-historia-text {
+    position: absolute;
+    margin: auto;
+
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #7d997d;
+    color: whitesmoke;
+    border-color: #668872b9;
+    border-width: 2px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.btn:hover {
+    background-color: #89aa89;
+    color: whitesmoke;
+}
+
+.row {
+    margin: auto;
+
+}
+
+.titulo {
+    margin: auto;
+
+}
+
+
+.cuenta {
+    background-image: url('/assets/fondos/fondoCuenta.png');
+    background-position: center;
+    background-size: 60vh;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    min-width: 40vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simply-countdown {
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.retrato {
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 30px;
+}
+
+.retrato h2 {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+
+
+
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.marco {
+    background-color: #98acad7e;
+    padding: 10px;
+    margin-top: auto;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.masinfo {
+    position: relative;
+    background: #efe9e5;
+    background-color: linear #98acad7e;
+    padding: 10px;
+}
+
+.instagram {
+    margin-bottom: 1rem;
+}
+
+.instagram p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #efe9e5;
+        color: #383838;
+    }
+
+    .masthead {
+        min-height: 100vh;
+    }
+
+    h1 {
+        font-size: calc(3rem + 3.3vw);
+    }
+
+    .bordes {
+        width: 40vh;
+        margin: auto;
+    }
+
+    .nuestra-historia {
+        min-height: 70vh;
+        margin: auto;
+    }
+
+    .nuestra-historia p {
+        font-size: calc(0.3rem + 3.3vw);
+
+    }
+
+    .retrato {
+        min-height: 60vh;
+        background-size: cover;
+        padding: 0%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: calc(1.5rem + 3.3vw);
+    }
+
+    h4 {
+        font-size: calc(0.3rem + 3.3vw);
+    }
+
+    h6 {
+        font-size: calc(0.1rem + 3.3vw);
+    }
+
+    .card-body p {
+        font-size: calc(0.1rem + 3.3vw);
+    }
+
+    .card-body {
+        background-color: white;
+    }
+
+    .masinfo {
+        min-height: 70vh;
+        margin: auto;
+    }
+
+    .fiesta {
+        min-height: 80vh;
+    }
+
+    .instagram {
+        margin-bottom: 2rem;
+    }
+
+    .cuenta {
+        background-size: 52vh;
+    }
+}
